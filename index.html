@@ -3,30 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ORBIS Corporation</title>
+    <title>SunShield Best</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    
     <!-- Navigation Bar -->
     <header>
-        <div class="container">
+        <div class="container" style="background-color: rgb(255, 255, 255);">
             <div class="logo">
-                <h1>Sun Shield Best<sup>&reg;</sup></h1>
-                <p>Powered by sunshield Corporation</p>
+             <a href="Index.html"><img src="SunshieldLogo copy.png" alt="SunShield Best Logo"></a>   
+
+
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Industries</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="#">News & Resources</a></li>
-                </ul>
+                    <nav>
+                        <ul>
+                            <li class="dropdown">
+                                <a href="/Plastic Product/index.html">Products</a>
+                                <div class="dropdown-content">
+                                    <a href="/Plastic Product/Platic.html">Plastic Products</a>
+                                    <a href="#">Virgin Resin</a>
+                                    <a href="Recycled Resin/index.html">Recycled Resin</a>
+                                    <a href="OMSoil/Index.html">OM Soil Amendment</a>
+                                    <a href="#">Industrial Fans</a>
+                                    <a href="#">Contract Manufacturing</a>
+                                    <a href="#">Logistics & Transportation</a>
+                                    <a href="#">Consulting</a>
+                                    <a href="#">Fitness Equipment</a>
+                                    <a href="#">Waste & Recycling Containers</a>
+                                </div>
+                            </li>
+                            <li><a href="#">Industries</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="About.html">About</a></li>
+                            <li><a href="#">News & Resources</a></li>
+                        </ul>
+                    </nav>
+                    
+                   
             </nav>
+            
+            <!-- Search Bar -->
+            <div class="search-bar">
+                <input type="text" placeholder="Search..."> 
+                <button type="submit">Search</button>
+            </div>
+            
             <div class="right-section">
-                <a href="Accountlogin.html" class="login">Account Login</a>
-                <button class="quote-btn">Request A Quote</button>
+                <a href="Accountlogin.html" class="button-link">Account Login</a> 
+                <a href="RequestQuota/requestquota.html" class="button-link">Request A Quote</a>
+                
             </div>
         </div>
     </header>
@@ -34,95 +63,68 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h2>A more sustainable supply chain starts with integrated reusable packaging.</h2>
-            <p>Take the first step to a more sustainable supply chain and business.</p>
-            <button class="quote-btn">Request a Quote</button>
+            
+            
+           
         </div>
         <div class="hero-image">
-            <!-- Placeholder for hero image -->
-            <img src="industrial-park-factory-building-warehouse.jpg" alt="Factory conveyor image">
+            <video class="hero-video" src="Sun Shield Best Plastic Products Video 2.mp4" autoplay muted loop></video>
+
         </div>
     </section>
 
     <!-- Call-to-Action Section -->
     <section class="cta">
-        <h3>Connect With Your ORBIS<sup>&reg;</sup> Expert</h3>
-        <p>Take the first step to a more sustainable supply chain and business. ORBIS is here to help.</p>
+        <h2>A more sustainable supply chain starts with integrated reusable packaging.</h2>
+        <p>Take the first step to a more sustainable supply chain and business.</p>
         <button class="quote-btn">Request a Quote</button>
     </section>
 
-     <section class="products-section">
-        <h2>Products and Services</h2>
-        <div class="products-container">
-            <div class="product-category">
-                <h3>Containers</h3>
-                <div class="product-item">
-                    <img src="plastic-containers.jpg" alt="Plastic Containers">
-                    <p>Plastic Containers</p>
-                </div>
-                <div class="product-item">
-                    <img src="bulk-containers.jpg" alt="Bulk Containers">
-                    <p>Bulk Containers</p>
-                </div>
-                <div class="product-item">
-                    <img src="reusable-corrugated-boxes.jpg" alt="Reusable Corrugated Boxes">
-                    <p>Reusable Corrugated Boxes</p>
-                </div>
-            </div>
-            <div class="product-category">
-                <h3>Pallets</h3>
-                <div class="product-item">
-                    <img src="pallets.jpg" alt="Pallets">
-                    <p>Pallets</p>
-                </div>
-            </div>
-            <div class="product-category">
-                <h3>Merchandising</h3>
-                <div class="product-item">
-                    <img src="mobile-merchandising.jpg" alt="Mobile & Merchandising">
-                    <p>Mobile & Merchandising</p>
-                </div>
-            </div>
-            <div class="product-category">
-                <h3>Services</h3>
-                <div class="product-item">
-                    <img src="services.jpg" alt="Services">
-                    <p>Services</p>
-                </div>
-            </div>
-            <div class="product-category">
-                <h3>Custom Solutions</h3>
-                <div class="product-item">
-                    <img src="custom-packaging.jpg" alt="Custom Packaging">
-                    <p>Custom Packaging</p>
-                </div>
-                <div class="product-item">
-                    <img src="metal-racks.jpg" alt="Metal Racks">
-                    <p>Metal Racks</p>
-                </div>
-                <div class="product-item">
-                    <img src="dunnage.jpg" alt="Dunnage">
-                    <p>Dunnage</p>
-                </div>
-            </div>
-            <div class="product-category">
-                <h3>Recycling Solutions</h3>
-                <div class="product-item">
-                    <img src="waste-recycling.jpg" alt="Waste & Recycling Containers">
-                    <p>Waste & Recycling Containers</p>
-                </div>
-            </div>
-        </div>
-    </section>
+   <!-- Product Categories Section -->
+   <section class="product-categories">
+    <div class="category-card">
+        <img src="/Photo / OM Soil.jpeg" alt="Plastic Processing Machinery">
+        <h3>OM Soil</h3>
+        <p>High-performance processing machinery for industrial plastic manufacturing.</p>
+    </div>
+    <div class="category-card">
+        <img src="/Photo /consulting-header-2732x1536.jpg" alt="Plastic Processing Machinery">
+        <h3>Plastic Processing Machinery</h3>
+        <p>Advanced equipment for large-scale plastic processing and production.</p>
+    </div>
+    <div class="category-card">
+        <img src="/Photo /holding-recycled-resin.jpg.webp" alt="Recycling Machinery">
+        <h3>Recycling Machinery</h3>
+        <p>Environmentally friendly machinery for efficient plastic recycling.</p>
+    </div>
+    <div class="category-card">
+        <img src="/Photo /Transport-logistics.jpg" alt="Auxiliary Plastic Equipment">
+        <h3>Auxiliary Plastic Equipment</h3>
+        <p>Supporting equipment for enhanced plastic processing efficiency.</p>
+    </div>
+    <div class="category-card">
+        <img src="/Photo /Fitness.png" alt="Used Machinery">
+        <h3>Used Machinery</h3>
+        <p>Quality used machinery for cost-effective plastic production solutions.</p>
+    </div>
+    <div class="category-card">
+        <img src="/Photo / Virign.jpg" alt="Machine Tools">
+        <h3>Machine Tools</h3>
+        <p>Tools and accessories for efficient plastic manufacturing processes.</p>
+    </div>
+</section>
+
+
+    <!-- Footer Section -->
     <footer class="footer">
         <div class="footer-top">
             <div class="contact">
                 <p>Want to get in touch with us?</p>
-                <button class="contact-button">Contact Us</button>
+               <a href="Contact us/Contact us.html"><button class="contact-button" >Contact Us →</button></a> 
             </div>
             <div class="phone">
                 <p>Contact us</p>
-                <p>800.890.7292</p>
+                <p>800.8998979</p>
             </div>
             <div class="social">
                 <p>Connect with Us</p>
@@ -147,7 +149,7 @@
                 <a href="#">Image Library</a>
                 <a href="#">Privacy Settings</a>
             </div>
-            <p>© Copyright 2024 ORBIS Corporation</p>
+            <p>© Copyright 2024 SunShield Corporation</p>
         </div>
     </footer>
 
