@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #4caf50;
+    background-color: #218bdb;
     color: white;
     padding: 1.5rem;
     text-align: center;
@@ -30,7 +30,7 @@ main {
 }
 
 h2 {
-    color: #4caf50;
+    color: #4c66af;
     margin-top: 1.5rem;
 }
 
@@ -56,7 +56,7 @@ table th, table td {
 }
 
 table th {
-    background-color: #4caf50;
+    background-color: #3558e2;
     color: white;
 }
 
